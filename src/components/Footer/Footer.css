@@ -1,0 +1,108 @@
+/* Footer.css */
+.site-footer { margin-top: 20px; }
+
+/* Back to top */
+.footer-back-top {
+  background: #37475a;
+  color: #fff;
+  text-align: center;
+  padding: 14px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+.footer-back-top:hover { background: #485769; }
+
+/* 4-col links section */
+.footer-cols-wrap {
+  background: #232f3e;
+  padding: 30px 0 20px;
+}
+.footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-col-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-col-link {
+  display: block;
+  font-size: 13px;
+  color: #999;
+  padding: 3px 0;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+.footer-col-link:hover { color: #fff; text-decoration: underline; }
+
+/* Mid row */
+.footer-mid {
+  background: #131a22;
+  border-top: 1px solid #3a4553;
+  border-bottom: 1px solid #3a4553;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.footer-logo { text-decoration: none !important; }
+.footer-logo-text {
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+.footer-locale-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.footer-locale-btn {
+  background: transparent;
+  border: 1px solid #666;
+  border-radius: 3px;
+  color: #ccc;
+  font-size: 13px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: border-color var(--transition), color var(--transition);
+}
+.footer-locale-btn:hover { border-color: #fff; color: #fff; }
+
+/* Sub footer */
+.footer-sub {
+  background: #131a22;
+  padding: 14px 0 20px;
+}
+.footer-sub-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.footer-sub-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.footer-sub-link {
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+}
+.footer-sub-link:hover { color: #fff; text-decoration: underline; }
+.footer-copy { font-size: 12px; color: #777; }
+
+@media (max-width: 768px) {
+  .footer-cols { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .footer-cols { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,19 @@
+.homepage {
+  width: 100%;
+}
+.page-section {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.page-section h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.page-section p {
+  color: #555;
+  font-size: 15px;
+}
